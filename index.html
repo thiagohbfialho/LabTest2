@@ -4,12 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CSD112 Test2 - Thiago</title>
+    <style>
+        .new {
+            font-weight: bold;
+            font-style: italic;
+        } 
+        .newmenu {
+            width: 80px; height: 25px; 
+            background-color: #4b7cd9; 
+            border-radius: 10px; 
+            color: white;
+            text-align: center;
+            display: inline-block;
+        }
+        a {
+            display: inline-block;
+        }
+</style>
+    </style>
 </head>
 <body>
-    <h1>
-        CSD - Thiago Fialho
-    </h1>
-    <p>This is the home page</p>
+    <div class="width-wrap">
+        <header>
+            <div class="newmenu">
+                Home
+            </div>
+            <div class="newmenu">
+                Favourite
+            </div>
+            <div class="newmenu">
+                About
+            </div>
+        </header>
+        <main>
+            <h1>Welcome to Thiago Fialho's Website</h1>
+            <p style="font-weight: bold; font-style: italic;">This is the first paragraph</p>
+            <div style="column-count: 2; height: 800px; ">
+                <div style="width: 100%; height: 100%;                 
+                background-image: url(image/saultcollege.png)">
+                </div>
+                <div style="width: 100%; height: 100%; ">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <div style="display: inline-block;">
+                <blockquote>
+                    "The last test of CSD112"
+                </blockquote>
+                <p>
+                    © 2021 Thiago Fialho 
+                </p>
+            </div>
+            <div style="display: inline-block;">
+                <p style="display: inline-block; ">Sault College - Computer Programming</p>
+                <a href="https://www.saultcollege.ca/programs/information-technology-studies/computer-programming">
+                    <img src="image/saultcollege.png" alt="" style="height: 50px; width: 50px;">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
